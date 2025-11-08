@@ -93,6 +93,7 @@ print_dynamic_symbol (Filedata *filedata, unsigned long si,
 }
 ```
 
+<br>
 
 Other example, would be the following code regarding CVE-2021-43549, in which again a weakly-bounded function (fread) fills a local-defined buffer (colormap\[256\]\[4\]) with user-controlled data (fp):
 
